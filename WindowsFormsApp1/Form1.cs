@@ -125,7 +125,7 @@ namespace WindowsFormsApp1
             else
             {
                 exitFlag11 = true;
-                var telegrambot = new TelegramBotClient("5315666946:AAFBaZKJchHKMffRx4ZXExXWHpB7-9Gb7BM");
+                var telegrambot = new TelegramBotClient("5315666946:AAFBaZKJchHKMffRx4ZXExXWHpB7-****");
                 await telegrambot.SendTextMessageAsync(chatId: "id чата", text: "Пришли результаты ГИА-11", parseMode: ParseMode.Html);
                 MessageBox.Show("Результаты пришли ГИА-11 + Напомни Насте про ФИПИ", "ВНИМАНИЕ", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.ServiceNotification);
                 timer1.Stop();//*
@@ -204,7 +204,7 @@ namespace WindowsFormsApp1
             else
             {
                 exitFlag9 = true;
-                var telegrambot = new TelegramBotClient("5315666946:AAFBaZKJchHKMffRx4ZXExXWHpB7-9Gb7BM");
+                var telegrambot = new TelegramBotClient("5315666946:AAFBaZKJchHKMffRx4ZXExXWHpB7-****");
                 await telegrambot.SendTextMessageAsync(chatId: "id чата", text: "Пришли результаты ГИА-9", parseMode: ParseMode.Html);
                 MessageBox.Show("Результаты пришли ГИА-9 + Напомни Насте про ФИПИ", "ВНИМАНИЕ", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.ServiceNotification);
             }
